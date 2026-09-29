@@ -1,0 +1,33 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+venv/
+env/
+ENV/
+.env
+
+# Model weights & large datasets
+ml/*.joblib
+ml/*.pkl
+*.csv
+
+# Local SQLite databases & logs
+*.db
+*.sqlite3
+events.db
+*.log
+
+# IDE & OS specifics
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
